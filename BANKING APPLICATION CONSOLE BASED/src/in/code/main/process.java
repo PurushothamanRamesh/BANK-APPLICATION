@@ -7,7 +7,7 @@ public class process {
  BANKDETAILS bank1 = new BANKDETAILS();
     
     public void openAccount() {  
-        System.out.print("Enter Account No: ");  
+        System.out.print("Enter  Account No: ");  
         bank1.setAccno(sc.next()); 
         System.out.print("Enter Account type: ");  
         bank1.setAcc_type(sc.next());
